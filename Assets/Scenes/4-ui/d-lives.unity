@@ -224,12 +224,12 @@ PrefabInstance:
     - target: {fileID: 8392271928695271266, guid: 76dd5d4eb2061104b9a72b003c24ce25,
         type: 3}
       propertyPath: minTimeBetweenSpawns
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8392271928695271266, guid: 76dd5d4eb2061104b9a72b003c24ce25,
         type: 3}
       propertyPath: maxTimeBetweenSpawns
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8392271928695271266, guid: 76dd5d4eb2061104b9a72b003c24ce25,
         type: 3}
@@ -1257,6 +1257,7 @@ GameObject:
   - component: {fileID: 1363711266115908}
   - component: {fileID: 1363711266115909}
   - component: {fileID: 1363711266115911}
+  - component: {fileID: 1363711266115912}
   - component: {fileID: 1363711266115910}
   m_Layer: 0
   m_Name: PlayerSpaceship
@@ -1311,12 +1312,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1363711266115907}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 252be3b8cd8b1b841a49af828624432c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9efb0001acb81f746aab98947e57ecc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   triggeringTag: Enemy
-  lifeCount: 3
-  livesDisplay: {fileID: 743245241}
 --- !u!114 &1363711266115911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,6 +1333,20 @@ MonoBehaviour:
     type: 3}
   velocityOfSpawnedObject: {x: 0, y: 10, z: 0}
   scoreField: {fileID: 1953225458}
+--- !u!114 &1363711266115912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363711266115907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d13c0b02824034ea2d03fccc3690ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeCount: 3
+  lifeDisplay: {fileID: 743245241}
 --- !u!4 &4756833480714881
 Transform:
   m_ObjectHideFlags: 0
@@ -1495,5 +1508,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7837289214103786378, guid: a7ec4b5ecf42bb349a8c73c3aa2f2739,
         type: 3}
+    - target: {fileID: 8392271928695271266, guid: 76dd5d4eb2061104b9a72b003c24ce25,
+        type: 3}
+      propertyPath: minTimeBetweenSpawns
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8392271928695271266, guid: 76dd5d4eb2061104b9a72b003c24ce25,
+        type: 3}
+      propertyPath: maxTimeBetweenSpawns
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76dd5d4eb2061104b9a72b003c24ce25, type: 3}

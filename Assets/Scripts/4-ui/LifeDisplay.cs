@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LivesDisplay : MonoBehaviour {
+public class LifeDisplay : MonoBehaviour {
     void Start() {
         SetLives(transform.childCount);
     }

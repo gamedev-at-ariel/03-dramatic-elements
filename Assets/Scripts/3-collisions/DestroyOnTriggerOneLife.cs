@@ -12,7 +12,7 @@ public class DestroyOnTriggerOneLife: DestroyOnTrigger2D {
     [SerializeField] int lifeCount = 3;
 
     [Tooltip("The UI display of the life-count")]
-    [SerializeField] LivesDisplay livesDisplay;
+    [SerializeField] LifeDisplay livesDisplay;
 
     private void Start() {
         if (livesDisplay)
