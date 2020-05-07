@@ -66,7 +66,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LayerIdle
+  m_Name: LawyerIdle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -80,7 +80,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5636ca41e3c0aec47a013b9c95457349, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5dfb52033e1772b44bc5cfeaa17ab573, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -132,7 +132,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5db5dc1e6f647454cb3b6251a0c096ce, type: 2}
+  m_Motion: {fileID: 7400000, guid: ea1d3e9fddba0d74d8a9e6dcb819cfd9, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
