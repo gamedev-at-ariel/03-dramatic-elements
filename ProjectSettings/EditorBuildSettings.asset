@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/5-load-scene-singleton/a-startscreen.unity
+    path: Assets/Scenes/5-load-scene/a-startscreen.unity
     guid: bb74d1ca622249c448ae4da6f26767ae
   - enabled: 1
-    path: Assets/Scenes/5-load-scene-singleton/b-level1.unity
+    path: Assets/Scenes/5-load-scene/b-level1.unity
     guid: cb34662d0f449a04398967b63737a233
   - enabled: 1
-    path: Assets/Scenes/5-load-scene-singleton/z-gameover.unity
+    path: Assets/Scenes/5-load-scene/z-gameover.unity
     guid: ad2b67ebf814629458b66cd92ee10dbd
   m_configObjects: {}
