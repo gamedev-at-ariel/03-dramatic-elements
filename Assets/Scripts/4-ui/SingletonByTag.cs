@@ -9,7 +9,7 @@ using UnityEngine;
  * @author Erel Segal-Halevi
  * @since 2020-02
  */
-public class Singleton : MonoBehaviour {
+public class SingletonByTag : MonoBehaviour {
     void Awake() {
         string myTag = gameObject.tag;
         GameObject[] otherObjectsWithSameTag = GameObject.FindGameObjectsWithTag(myTag);
