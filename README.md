@@ -4,12 +4,13 @@ A project with step-by-step scenes illustrating some dramatic elements of game d
 including animation, audio, user-interface, scene loading, and video.
 
 Text explanations are available 
-[here](https://github.com/erelsgl-at-ariel/gamedev-5780) in folder 07.
+[here](https://github.com/erelsgl-at-ariel/gamedev-5782) in folder 10.
 
-NOTE: When you first open this project, you may not see the text in the score field.
-This is because TextMesh Pro is not in the project.
-The Unity Editor should hopefully prompt you to import TextMeshPro;
-once you do this, re-open the scenes, and you should be able to see the texts.
+## Cloning
+To clone the project, you may need to install git lfs first:
+
+    git lfs install 
+
 
 ## Credits
 
