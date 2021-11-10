@@ -4,7 +4,7 @@ A project with step-by-step scenes illustrating some dramatic elements of game d
 including animation, audio, user-interface, scene loading, and video.
 
 Text explanations are available 
-[here](https://github.com/erelsgl-at-ariel/gamedev-5782) in folder 10.
+[here](https://github.com/gamedev-at-ariel/gamedev-5782) in folder 10.
 
 ## Cloning
 To clone the project, you may need to install git lfs first:
